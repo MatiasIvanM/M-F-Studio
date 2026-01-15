@@ -1,0 +1,13 @@
+:root {
+  --bg-main: #f6f2ea;
+  --text-main: #1b1a18;
+  --accent: #8b6a3f;
+  --accent-strong: #6f5331;
+  --ink: #11100f;
+  --border-muted: rgba(27, 26, 24, 0.2);
+  --max-width: 1080px;
+  --section-gap: 5rem;
+  --section-gap-sm: 3.5rem;
+  --serif: "Cormorant Garamond", "Times New Roman", serif;
+  --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}

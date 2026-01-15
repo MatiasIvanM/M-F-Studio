@@ -1,0 +1,25 @@
+---
+const items = [
+  { href: "#filosofia", label: "Filosofía" },
+  { href: "#capacidades", label: "Capacidades" },
+  { href: "#trabajo", label: "Cómo trabajamos" },
+  { href: "#contacto", label: "Contacto" },
+];
+---
+<header>
+  <div class="container header-inner">
+    <div class="logo wordmark" aria-label="M&F Studio">
+      <span class="wordmark-top">M&F</span>
+      <span class="wordmark-main">Studio</span>
+    </div>
+    <nav aria-label="Principal">
+      <ul>
+        {items.map((item) => (
+          <li>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
