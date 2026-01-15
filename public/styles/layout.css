@@ -1,0 +1,49 @@
+.container {
+  width: min(100% - 3rem, var(--max-width));
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+  padding: 2rem 0 6rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-divider {
+  border-top: 1px solid var(--border-muted);
+  padding-top: var(--section-gap-sm);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --section-gap: 4rem;
+    --section-gap-sm: 3rem;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    padding: 1.5rem 0 4rem;
+  }
+}

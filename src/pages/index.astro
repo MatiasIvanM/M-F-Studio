@@ -1,0 +1,147 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout>
+  <Header />
+  <main>
+    <Hero />
+
+    <section id="filosofia" class="section-divider">
+      <div class="container columns">
+        <div>
+          <div class="section-label">Manifiesto</div>
+          <h2>Una forma de pensar el desarrollo.</h2>
+        </div>
+        <div class="stack">
+          <p>
+            No construimos productos para impresionar. Diseñamos sistemas para durar. Trabajamos con criterio técnico,
+            entendiendo procesos reales y tomando decisiones sostenibles en el tiempo.
+          </p>
+          <p>
+            Elegimos claridad por sobre velocidad. Arquitectura por sobre tendencia. Aceptamos proyectos donde el
+            mantenimiento, la estabilidad y la integración son parte del objetivo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="capacidades" class="section-divider">
+      <div class="container columns">
+        <div>
+          <div class="section-label">Capacidades</div>
+          <h2>Diseñamos infraestructura digital a medida.</h2>
+        </div>
+        <div class="stack">
+          <article class="capability-item">
+            <h3>RPA & Automatización</h3>
+            <p>
+              Automatizamos procesos internos, reduciendo tareas manuales y errores operativos mediante flujos
+              confiables, auditables y documentados.
+            </p>
+          </article>
+          <article class="capability-item">
+            <h3>Sistemas a Medida</h3>
+            <p>
+              Diseñamos backends y sistemas específicos para cada organización, evitando soluciones genéricas y
+              priorizando arquitecturas que puedan crecer con el negocio.
+            </p>
+          </article>
+          <article class="capability-item">
+            <h3>Sistemas de Integración</h3>
+            <p>
+              Conectamos plataformas, APIs y servicios para eliminar silos de información y reducir fricción
+              operativa entre equipos.
+            </p>
+          </article>
+          <article class="capability-item">
+            <h3>Landing Pages a Medida</h3>
+            <p>
+              Diseño editorial y técnico, integradas a sistemas internos, sin plantillas ni soluciones enlatadas.
+              Priorizamos claridad, performance y mantenimiento.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajo" class="section-divider">
+      <div class="container columns">
+        <div>
+          <div class="section-label">Proceso</div>
+          <h2>Cómo trabajamos.</h2>
+        </div>
+        <div class="stack">
+          <article class="process-item">
+            <h3>Análisis</h3>
+            <p>Comprendemos el proceso antes de escribir código.</p>
+          </article>
+          <article class="process-item">
+            <h3>Diseño</h3>
+            <p>Definimos arquitectura, flujos y decisiones técnicas.</p>
+          </article>
+          <article class="process-item">
+            <h3>Implementación</h3>
+            <p>Construimos sistemas claros, mantenibles y documentados.</p>
+          </article>
+          <article class="process-item">
+            <h3>Evolución</h3>
+            <p>Los sistemas crecen con el negocio, no se descartan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="aplicaciones" class="section-divider">
+      <div class="container columns">
+        <div>
+          <div class="section-label">Aplicaciones</div>
+          <h2>Casos donde aportamos criterio.</h2>
+        </div>
+        <div class="stack">
+          <article class="case-item">
+            <h3>Automatización de procesos administrativos</h3>
+            <p>
+              Reducción de tareas repetitivas mediante RPA integrado a sistemas existentes, con foco en
+              trazabilidad y control operativo.
+            </p>
+          </article>
+          <article class="case-item">
+            <h3>Integración de plataformas</h3>
+            <p>
+              Orquestación de servicios y APIs para centralizar información operativa y eliminar fricciones entre
+              áreas.
+            </p>
+          </article>
+          <article class="case-item">
+            <h3>Sistemas internos personalizados</h3>
+            <p>
+              Herramientas diseñadas específicamente para flujos de negocio no estandarizados, priorizando
+              continuidad y mantenimiento.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section-divider">
+      <div class="container columns">
+        <div>
+          <div class="section-label">Contacto</div>
+          <h2>Conversemos con claridad.</h2>
+        </div>
+        <div class="stack">
+          <p>
+            Si necesitás diseñar o repensar un sistema digital con criterio técnico y visión de largo plazo,
+            podemos conversar.
+          </p>
+          <a class="hero-cta" href="mailto:contacto@mfstudio.dev">Iniciar conversación</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>
